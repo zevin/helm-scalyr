@@ -148,6 +148,10 @@ affinity: {}
 
 # Values relevant to ServiceAccount
 serviceAccount:
+  # create -- allow default serviceAccount creation to be optional
+  create: true
+  # name -- optional name to use for the serviceAccount
+  name:
   # serviceAccount.annotations -- optional arbitrary service account annotations
   annotations: {}
 
